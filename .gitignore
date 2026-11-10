@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+
+# Local config (本机SDK路径，不提交)
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+
+# 调试符号
+symbols/
+
+# ---- VibeLab 提交补充（本机制作过程残留，不入库）----
+/launcher/build/
+/launcher/.gradle/
+/launcher/.cxx/
+/unityLibrary/build/
+/unityLibrary/.gradle/
+/unityLibrary/.cxx/
+/unityLibrary/xrmanifest.androidlib/build/
+/unityLibrary/xrmanifest.androidlib/.gradle/
+/unityLibrary/xrmanifest.androidlib/.cxx/
+/unityLibrary/src/main/Il2CppOutputProject/
+/shared/build/
+/shared/.gradle/
+*_BurstDebugInformation_DoNotShip/
+/.vibelab-staging/
+/.vibelab-old/
+.vibelab-swap-*.json
